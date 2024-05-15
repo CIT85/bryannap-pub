@@ -1,0 +1,278 @@
+html {
+    font-size: 25px
+}
+
+body {
+    background-color:  #960200;  
+    color: #8FC93A;
+    /* I used the Penn red as the background color, so that the background will pop to the user.
+    I used yellow green for the letters because it represents mental health awareness and so the letters can compliments the red background. */
+    margin: 0;
+    padding: 0;
+    /* I used 0 for the margin and padding so the page won't over flow. */
+}
+
+a:visited {
+    color: #241E4E;
+    /* I used blue to make the link letters different than the rest of the letters on the page this is to show that these aren't just content on the page, but they are actual links. */
+ }
+ 
+a:hover, a:active {
+    color: #F3A712;
+    /* I used orange (web) for the active hover, so that it can stand out better when the user is hovering over a specific link.  */
+ } 
+ table, tr, th, caption {
+    border: 5px solid #241E4E;
+    /* I used the Russian violet for my border and made it more thicker, by making it a darker on the outside it makes the content inside the table more readable. */
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    /* The padding gives space outside the element */
+ }
+
+  body {
+    font: 0.8rem "Nunito", sans-serif;
+    min-height: 100vh;
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    /* I used the display: flex and the flex:direction on .row to take up the full page for my layout. */
+    border: 0.3em solid #241E4E;
+    /* I made my border solid  0.3 so it won't be too thick for my page. */
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    /* I used the display felx and flex direction for my column to organize the rows better. */
+    border: 0.3em solid #241E4E;
+    /* I used the russian violet color for my border so the lighter texts color can stand out inside. */
+  }
+
+  .center {
+    justify-content: center;
+    /* I used the justify center to make certain content centered.  */
+  }
+
+  .column2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 0.3em solid  #241E4E;
+    box-sizing: border-box;
+    align-items: center;
+  /* I used column 2 for a specific element different from the original column. */
+  }
+
+  table {
+    width: 100%;
+    /* I made the table 100% because I wanted it to stand out compared to the other columns. */
+  }
+
+  footer {
+    justify-content: space-around;
+    /* I added space around my footer content so it will all be equal and make the footer look more organized. */
+  }
+
+  .menu {
+    justify-content: space-evenly
+
+  }
+  .hidden {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1201px) {
+    .column {
+      background-color: #960200;
+      /* I used white as my background-color to make it different than the other media quieries */
+      border: 0.3em solid  #8FC93A;
+      /* I used the green border to compliment the blue background */
+    }
+  }
+    .column2 {
+      background-color: #960200;
+      border: 0.3em solid #8FC93A ;
+      /* I added green to column2 too to match up with original column */
+    }
+    img {
+      width: 100%;
+      max-width: 1201px;
+      height: auto;
+    }
+    /* I made my images fit to the same size as my 1200px column */
+    .row {
+      background-color: #960200;
+      /* I used red for my row background-color so the background on my footer and images won't just be randomly differerent */
+      border: 0.3em solid #8FC93A ;
+      /* I switched my row border to to match the rest so it'll match evenly */
+    }
+    body {
+      background-color: #960200;
+      color: #F3A712;
+      /* I used yellow lettering with a blue background to make it stand out more */
+    }
+    a:hover, a:active {
+        color: #8FC93A;
+        /* I used the green to make the active hover pop */
+  }
+  table {
+    width: 100%;
+    border: 0.3em solid #8FC93A;
+    border-color: #8FC93A;
+
+    a:visited {
+    color: #960200
+      /* I used the red to make the links pop */
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .column {
+      background-color: #241E4E;
+      /* I used blue as my background-color to make it different than the other media quieries */
+      border: 0.3em solid  #8FC93A;
+      /* I used the green border to compliment the blue background */
+    }
+    .column2 {
+      background-color: #241E4E;
+      border: 0.3em solid #8FC93A;
+      /* I added green to column2 too to match up with original column */
+    }
+    img {
+      width: 100%;
+      max-width: 1200px;
+      height: auto;
+    }
+    /* I made my images fit to the same size as my 1200px column */
+    .row {
+      background-color: #241E4E;
+      /* I used blue for my row background-color so the background on my footer and images won't just be randomly differerent */
+      border: 0.3em solid #8FC93A;
+      /* I switched my row border to green to match the rest so it'll match evenly */
+    }
+    body {
+      background-color: #241E4E;
+      color: #F3A712;
+      /* I used yellow lettering with a blue background to make it stand out more */
+    }
+    a:hover, a:active {
+        color: #960200;
+  }
+  table {
+    width: 100%;
+    border: 0.3em solid #960200;
+  }
+    a:visited {
+    color: #FFFFFF
+      /* I used the white to make the links pop */
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .column {
+      background-color: #8FC93A;
+      /* I used yellow as my background-color to make it different than the other media quieries */
+      border: 0.3em solid  #F3A712;
+      /* I used the yellow border to compliment the green background */
+    }
+    .column2 {
+      background-color: #8FC93A;
+      border: 0.3em solid #F3A712;
+      /* I added yellow to column2 too to match up with original column */
+    }
+    img {
+      width: 100%;
+      max-width: 1024px;
+      height: auto;
+    }
+    /* I made my images fit to the same size as my 1024px column */
+    .row {
+      background-color: #8FC93A;
+      /* I used green for my row background-color so the background on my footer and images won't just be randomly differerent */
+      border: 0.3em solid #F3A712;
+      /* I switched my row border to yellow to match the rest so it won't just be random */
+    }
+    body {
+      background-color: #8FC93A;
+      color: #FFFFFF;
+      /* I used the white as the background color, so that the background will pop to the user with yellow border
+      I used white for the letters because it compliments the green background color and users makes it easy for user to read. */
+    }
+    a:hover, a:active {
+        color: #960200;
+        /* I used red instead of yellow for my hover so you can see which links are being hovered over with the green background */
+  }
+  }
+
+  @media screen and (max-width: 768px) {
+    .column {
+      background-color: #FFFFFF;
+      border: 0.3em solid #960200;
+      /* I used white for my background so I can use any color for my border and font color and used red for my border */
+    }
+    .column2 {
+      background-color: #FFFFFF;
+      border: 0.3em solid #960200;
+    }
+    /* I used the white background-color to match the origiinal column2. */
+    img {
+      width: 100%;
+      max-width: 768px;
+      height: auto;
+    }
+    /* I made my imgages fit to the same size as my other coulmns */
+    .row {
+      background-color: #FFFFFF;
+      border: 0.3em solid #960200;
+      /* I made the rows the same color as my coulmns and border so it cant match evenly */
+    }
+    body {
+      background-color: #FFFFFF;
+      color:#241E4E
+      /* I used the blue for my letters to make it look like the American flag colors */
+    }
+    a:visited {
+      color:#F3A712
+      /* I used the yellow to make the links pop */
+    }
+  }
+
+  @media screen and (max-width: 481px) {
+    .column {
+      background-color: #F3A712;
+      /* I used yellow as my background-color to make it different than the other media quieries */
+      border: 0.3em solid #960200;
+    }
+    .column2 {
+      background-color: #F3A712;
+      border: 0.3em solid #960200;
+    }
+    /* I used yellow to match the orginal column so the colors will look all the same */
+
+    img {
+      width: 100%;
+      max-width: 481px;
+      height: auto;
+    }
+    /* I made my images fit to the same size as my 481px column */
+    .row {
+      background-color: #F3A712;
+      /* I used yellow for my row background-color so the background on my footer and images won't just be randomly differerent */
+      border: 0.3em solid #960200;
+    }
+    body {
+      background-color: #F3A712;
+      color: #960200;
+      /* I used the yellow as the background color, so that the background will pop to the user.
+      I used red for the letters because it compliments the yellow background color and users makes it easy for user to read. */
+    }
+    a:hover, a:active {
+        color: #FFFFFF;
+        /* I used white instead of yellow for my hover so you can see which links are being hovered over with the yellow background */
+  }
+}
+  
